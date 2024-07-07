@@ -1,0 +1,162 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff0000;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .logo {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #ff0000;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ff0000;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.producto {
+    background-color: #333333;
+    border: 1px solid #ff0000;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.producto img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.producto h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.producto p {
+    font-size: 1.2em;
+    color: #cccccc;
+}
+
+.formulario {
+    background-color: #282828;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+.formulario h2 {
+    color: #ff0000;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 1.1em;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1em;
+}
+
+button {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button[type="reset"] {
+    background-color: #444444;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+footer {
+    background-color: #ff0000;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.imagen-preview {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.imagen-preview img {
+    max-width: 100%;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+}
+
+.caja-productos {
+    background-color: #282828;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#lista-productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#lista-productos .producto {
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+}
